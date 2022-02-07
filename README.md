@@ -15,13 +15,12 @@ Major changes to the application:
 
  ***************************************
  2. Redesign of UI to suit the new code design.
-   #### Activity_Main1
 
+   Activity_Main1:
     - redefined color palette from "#039BE5" to "#40CEEF"
     - colored the word "app" inside the welcome text
-
-   #### Activity_Main2
-   
+    
+   Activity_Main2:
     - New button to make a clearer conversion direction for user.
     - Added animation inside the activity_main2.xml page to enhance page appearance.
     - Reshuffled position of buttons to suit the layout by placing it under the value.
