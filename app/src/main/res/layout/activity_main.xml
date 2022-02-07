@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/lf30_editor_bhdy9o0c"
+        app:lottie_rawRes="@raw/mainmenuanimation"
         app:lottie_url="REPLACE_JSON_URL" />
 
 
@@ -35,7 +35,7 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="410dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Welcome to our currency converter app!"
+        android:text="@string/lets_get_started"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black"
@@ -56,16 +56,14 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="60dp"
-        android:backgroundTint="#03A9F4"
+        android:backgroundTint="#40CEEF"
         android:backgroundTintMode="add"
-        android:cursorVisible="false"
         android:fontFamily="@font/poppins_bold"
-        android:icon="@drawable/arrow_21_24"
-        android:text="Let's get started"
-        android:textColor="#FFFFFF"
         android:onClick="OnClickGetStarted"
+        android:text="@string/button_get_started"
 
 
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:cornerRadius="30dip"
         app:iconPadding="1dp"
@@ -75,16 +73,9 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeText"
-        app:layout_constraintVertical_bias="1.0" /><![CDATA[
+        app:layout_constraintVertical_bias="1.0" />
 
 
 
-    app:layout_constraintBottom_toTopOf="@+id/welcomeText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/welcomeText"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793" />
 
-]]>
 </androidx.constraintlayout.widget.ConstraintLayout>

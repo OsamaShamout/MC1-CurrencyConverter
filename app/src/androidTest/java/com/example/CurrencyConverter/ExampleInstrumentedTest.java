@@ -1,4 +1,4 @@
-package com.example.mypall;
+package com.example.CurrencyConverter;
 
 import android.content.Context;
 
